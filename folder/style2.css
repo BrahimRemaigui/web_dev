@@ -1,0 +1,135 @@
+*{
+background-color: rgb(70, 70, 151);
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.heder{
+display: flex;
+width: 100%;
+height: 40px;
+background-color: rgb(3, 1, 5);
+}
+.logo{
+margin: 10px 0 0 10px;
+background-color: rgb(3, 1, 5);
+width: 40%;
+color: white;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: bold;
+font-family: 'Cairo', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+transition-duration:1s ;
+}
+
+.logo:hover{
+padding-left: 40px;
+
+}
+
+.navB{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  background-color: rgb(3, 1, 5);
+}
+
+.lin{
+ display: flex;
+ background-color: rgb(3, 1, 5);
+ justify-content: center;
+ align-items: center;
+ width: 25%;
+ height: 100%;
+ padding: 5px;
+}
+.link,a{
+text-decoration: none ;
+background-color: rgb(3, 1, 5);
+color: white;
+font-weight: 500;
+font-size: 17px;
+text-transform: capitalize;
+}
+link,a:hover{
+font-size: 18px;
+}
+.cont{
+ display: flex;
+ width: 100%;
+ height: 100%;
+}
+
+.fiPar{
+
+    background-color: #141313;
+    width: 15%;
+    height:100% ;
+}
+
+.man{
+    background-color: rgb(70, 70, 151);
+    width: 70%;
+    height: 100%;
+
+}
+.iml{
+width: 100%;
+height: 280px;
+opacity: 0.8;
+}
+.iml:hover{
+ filter: grayscale(100%);
+}
+
+
+.text{
+font-size: 17px;
+caret-color: rgb(22, 26, 26);
+color: rgb(223, 216, 216);
+letter-spacing: 0.7px;
+padding: 10px;
+}
+.parentGa{
+margin: 20px 0;
+margin-bottom: 20px;
+width: 100%;
+display: grid;
+height: auto; ;
+background-color: rgb(70, 70, 151);
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(2,150px);
+column-gap: 10px;
+row-gap: 10px;
+}
+.cart{
+display: flex;
+flex-direction: column;
+padding: 20px;
+background-color: #eee;
+text-align: center;
+text-transform: uppercase;
+font-weight: 500;
+}
+img{
+ 
+  width: 60% ;
+  height: 60%;
+  background-color: transparent;
+  margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+
+  }
