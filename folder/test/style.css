@@ -1,0 +1,142 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desaign{
+    width: 400px;
+    margin-top: 100px;
+    height: 270px;
+   
+    border-radius: 20px;
+    box-shadow: 2px  2px  40px  10px  rgb(186, 180, 180);
+    overflow: hidden;
+    display:flex ;
+}
+.section1{
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(rgb(105, 87, 188),rgb(15, 15, 204));
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding:0  5px ;
+}
+.turn{
+
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(61, 47, 189);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top:- 20px;
+    
+
+}
+.turn h6{
+    position: absolute;
+    top:37px;
+    color: rgb(205, 205, 205);
+    font-size: 10px;
+}
+
+.text{
+    margin:  auto auto;
+    top: -12px;
+    position: relative;   
+   
+}
+.text h4 {
+   text-align: center;
+}
+.text h6{
+    position: relative;
+    text-align: center;
+    margin: 0 23px;
+    top: -5px;
+    color: rgb(205, 205, 205);
+}
+.section2{
+display: flex;
+flex-direction: column;
+padding: 20px 20px;
+
+}
+.section2 .title{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.info{
+    width: 180px;
+    display: grid;
+    grid-template-rows: 35px 35px 35px 35px;
+    gap: 8px;
+}
+.info .in ,.in2, .in3, .in4{
+    
+    border-radius:10px ;
+    padding: 8px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 11px;
+}
+.in{
+    color: rgb(205, 79, 47);
+    background-color: rgb(238, 227, 225);
+}
+.in2{
+    color: rgb(187, 205, 47);
+    background-color: rgb(234, 238, 225);
+}
+.in3{
+    color: rgb(47, 205, 131);
+    background-color: rgb(225, 238, 230);
+}
+.in4{
+    color: rgb(47, 102, 205);
+    background-color: rgb(225, 227, 238);
+}
+.info p{
+    color: black;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 28
+}
+.material-icons{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    position: relative;
+    left: -12px;
+}
+.btn{
+    color: white;
+    background-color: rgb(11, 15, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    padding: 5px 40px ;
+    font-size: 13px;
+    border-radius: 20px;
+    width: 90px;
+    text-decoration: none;
+}
